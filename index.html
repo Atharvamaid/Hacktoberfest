@@ -2,6 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css2?family=Nunito&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -62,7 +63,7 @@
             </div>
             <div class="row ">
                 <div class="col-md-6">
-                    <div class="form">
+                    <div class="form border mt-3 rounded shadow-lg p-3 rounded-lg" >
                         <form >
                             <fieldset>
                                 <legend>Contact</legend>
@@ -76,7 +77,7 @@
                                 </div>
                                 <div class="from-group">
                                     <label for="message">Message : </label>
-                                    <textarea style="display: block; resize: none;" name="" id="" cols="72" rows="10" placeholder="Enter message"></textarea>
+                                    <textarea class="rounded-lg pl-1" style="display: block; resize: none; max-width: 100%;" name="" id="" cols="66" rows="10" placeholder="Enter message"></textarea>
                                 </div>
                                 <div class="submitbtn mt-4">
                                     <button type="submit" class="btn btn-lg" style="background-color: #9c4668; color: white;">Send Message</button>
@@ -86,8 +87,15 @@
                         </form>
                     </div>
                 </div>
-                <div class="col-md-6">
-
+                <div class="col-md-6 " style="display: flex; align-items: center; justify-content: center;">
+                        <div class="social">
+                            <h1 class="text-center">Follow us on our social media handles !</h1>
+                            <div class="social-media-links d-flex justify-content-center mt-4" >
+                                <i style="font-size: 50px; border-radius: 50%;" class="fab fa-facebook mr-3 fa-lg"></i>
+                                <i style="font-size: 50px; border-radius: 50%;" class="fab fa-instagram mx-3 fa-lg"></i>
+                                <i style="font-size: 50px; border-radius: 50%;" class="fab fa-linkedin ml-3 fa-lg"></i>
+                            </div>
+                        </div>
                 </div>
             </div>
         </div>
